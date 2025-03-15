@@ -1,0 +1,173 @@
+/* @import url('./Responsive.css'); */
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: system-ui;
+  background: linear-gradient(135deg, #000000, #1a1a1a, #0b331f, #19593f, #264d3d);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;  
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.AdminOrUser {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+button {
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+
+  outline: none;
+  border: none;
+  background-color: #0b331f;
+  color: whitesmoke;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: .5s;
+  cursor: pointer;
+}
+
+/*                                                         start  Header  */
+
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background: linear-gradient(90deg, #0d0f0d, #1a261b, #314d3a);
+  height: 60px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: 2s;
+}
+.logo:hover {
+  rotate: 180deg;
+}
+.name , .Nick_Name {
+  color: whitesmoke;
+  font-size: 25px;
+  font-family: 'Dancing Script', cursive;
+}
+.name:hover , .Nick_Name:hover {
+  background: linear-gradient(to right ,purple ,whitesmoke);
+  -webkit-text-fill-color: transparent;
+  background-clip :unset ;
+  -webkit-background-clip: text;
+  cursor: pointer;
+}
+
+
+.head {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0 ;
+  color: whitesmoke;
+}
+
+/*                                                         End  Header  */
+/*                                                         start  Inputs  */
+input {
+  text-align: center;
+  padding: 5px;
+  margin: 5px 0 ;
+  background-color: black;
+  color: whitesmoke;
+
+  height: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.Containerinputs {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.INP{
+  width: 238px;
+}
+.INPSearch{
+  width: 99%;
+}
+
+.BtnReset , th button{
+  width: 65px;
+}
+
+
+.BtnCreate , .Show_Buttons_Buy{
+  width: 100%;
+}
+.Show_Buttons_Buy {
+  background:linear-gradient(65deg ,black,#1b611b) ;
+}
+
+.Container_BtnsBuy {
+  display: none;
+  
+}
+.hidden {
+  display: block;
+}
+
+/*                                                        SearchButtons */
+.SearchButtons{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 7px;
+}
+
+
+/*                                                        Start Table */
+table {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  color: whitesmoke;
+}
+
+table th {
+  text-transform: uppercase;
+}
+
+th ,td {
+  padding:2px;
+}
+
+button:hover {
+  letter-spacing: .5px;
+}
+
+
+.receipt {
+  width: 90%;
+  height: 150px;
+  display: none;
+  margin: auto;
+}
+
+.receipt p {
+  text-align: left;
+}
+
+.receipt h2 ,.receipt p {
+  color: whitesmoke;
+}

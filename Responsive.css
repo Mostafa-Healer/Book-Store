@@ -1,0 +1,77 @@
+@media (max-width: 600px) {
+    button {
+        outline: none;
+        border: none;
+        background-color: #0b331f;
+        color: whitesmoke;
+        border-radius: 5px;
+        padding: 2px;
+        margin-bottom: 2px;
+        margin-top: 2px;
+        font-size: 15px;
+        font-weight: 600;
+        transition: .5s;
+        cursor: pointer;
+      }
+
+      
+    .Header {
+      height: 34px;
+    }
+    h2,.name, .Nick_Name{
+      font-size: 17px;
+    }
+    .logo{
+      width: 20px;
+      height: 20px;
+    }
+    .Header {
+      width: 100%;
+    }
+    
+    .Containerinputs {
+      width: 80%;
+      text-align: center;
+      margin: auto;
+    }
+    .INPSearch {
+      width: 80%;
+  } 
+    
+    button,.BtnSearch{
+      font-size: 12px;
+      padding: 5px;
+    }
+  
+    .BtnCreate{
+      font-size: 12px;
+      padding: 5px;
+    }
+    .BtnSearch {
+      font-size: 12px;
+      padding: 5px;
+    }
+  
+  
+  
+    /*                                                        Start Table */
+  table {
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    color: whitesmoke;
+  }
+  
+  table th {
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+  
+  th ,td {
+    padding:  2px;
+  }
+  
+  tbody tr td {
+    font-size: 10px;
+  }
+  }
