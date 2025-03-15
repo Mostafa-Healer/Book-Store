@@ -315,7 +315,3 @@ BtnBuy.onclick = ()=>{
         }
     }
 }
-
-// function receipt(){
-
-// }
